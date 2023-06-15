@@ -34,7 +34,7 @@ int main()
 		}
 	}
 	category.showProducts();
-	cout << "Enter ID";
+	cout << "Enter ID for remove: ";
 	int id;
 	cin >> id;
 	category.deleteProductById(id);
